@@ -1,0 +1,13 @@
+news_sites:
+  eluniversal:
+    url: http://www.eluniversal.com.mx
+    queries:
+      homepage_article_links: 'h2 a'
+      article_body: 'div[class="field field-name-body field-type-text-with-summary field-label-hidden"] p'
+      article_title: '.Encabezado-Articulo h1'
+  xataka:
+    url: https://www.xataka.com/
+    queries:
+      homepage_article_links: '.abstract-title a'
+      article_body: 'div[class="article-content"] div p'
+      article_title: 'div[class="article-header article-normal-header"] header h1 span'
